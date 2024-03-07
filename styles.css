@@ -1,7 +1,5 @@
-*{
-    /* outline: 1px solid red; */
-}
 body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -32,9 +30,11 @@ button{
     border: 3px solid gray;
     width: 400px;
     height: 150px;
-    padding:12px;
+    padding:24px;
+    font-size: 48px;
     /* margin-bottom: 12px; */
     border-radius: 8px;
+    /*Number is overflowing from display screen*/
 }
 .numbers{
     display: flex;
@@ -71,4 +71,12 @@ button{
 }
 .equals{
     width: 150px;
+}
+.number.parentheses{
+    display: flex;
+    gap: 11px;
+    justify-content: space-between;
+}
+.parenthesis{
+    width: 40px;
 }
